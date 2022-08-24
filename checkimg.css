@@ -1,3 +1,18 @@
+body {
+    text-align: center;
+}
+
+@media (max-width: 100px) {
+    #content {
+        width: auto;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
 .checkimg {
     display: flex;
     justify-content: center
