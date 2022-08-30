@@ -1,6 +1,6 @@
 //変数定義
 const boxsize = 8;
-const imgheight = "150px";
+const imgheight = "100px";
 const imgfolder = "img/";
 let $checkimg = document.getElementsByName("arr");
 let arr = new Array(boxsize);
