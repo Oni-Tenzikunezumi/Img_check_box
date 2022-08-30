@@ -15,7 +15,7 @@ const dict = {
 const namearr = [
     {
         path: imgfolder + "くろまめ.png",
-        button: "黒豆",
+        button: "くろまめ",
         tag:"Kuromame",
     }, {
         path: imgfolder + "レモン.png",
@@ -39,11 +39,11 @@ const namearr = [
         tag: "Insecticide",
     }, {
         path: imgfolder + "ほのお.png",
-        button: "火（あぶる）",
+        button: "ひ（ほのお）",
         tag: "Fire",
     }, {
         path: imgfolder + "す.png",
-        button: "お酢（す）",
+        button: "す",
         tag: "Vineger",
     },
 ]
