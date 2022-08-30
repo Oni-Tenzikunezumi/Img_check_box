@@ -1,6 +1,6 @@
 //変数定義
 const boxsize = 8;
-const imgwidth = "100px";
+const imgheight = "150px";
 const imgfolder = "img/";
 let $checkimg = document.getElementsByName("arr");
 let arr = new Array(boxsize);
@@ -14,7 +14,7 @@ const dict = {
 
 const namearr = [
     {
-        path: imgfolder + "",
+        path: imgfolder + "くろまめ.png",
         button: "黒豆",
         tag:"Kuromame",
     }, {
@@ -26,23 +26,23 @@ const namearr = [
         button: "ベーキングパウダー",
         tag: "Bakingpowder",
     }, {
-        path: imgfolder + "",
+        path: imgfolder + "いちご.png",
         button: "いちご",
         tag: "Strawberry",
     }, {
-        path: imgfolder + "",
+        path: imgfolder + "トマト.png",
         button: "トマト",
         tag: "Tomato",
     }, {
-        path: imgfolder + "",
-        button: "防虫剤",
+        path: imgfolder + "ぼうちゅうざい.png",
+        button: "ぼうちゅうざい",
         tag: "Insecticide",
     }, {
-        path: imgfolder + "",
+        path: imgfolder + "ほのお.png",
         button: "火（あぶる）",
         tag: "Fire",
     }, {
-        path: imgfolder + "",
+        path: imgfolder + "す.png",
         button: "お酢（す）",
         tag: "Vineger",
     },
@@ -59,7 +59,7 @@ function buttonchange() {
         let path = ele.path;
 
         if(path !== imgfolder){
-            let image = `<img src="${path}" height="auto" width="${imgwidth}" /><br>${check}`;
+            let image = `<img src="${path}" height="${imgheight}" width="auto" /><br>${check}`;
             $check.innerHTML = image;
         }
     }
