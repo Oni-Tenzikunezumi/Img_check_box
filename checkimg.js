@@ -9,7 +9,7 @@ const dict = {
     Kuromame_Lemon_: ["赤色（あかいろ）", "https://veritas-color-kids.jimdofree.com/%E3%81%82%E3%81%8B/"],
     Kuromame_Vineger_: ["赤色（あかいろ）", "https://veritas-color-kids.jimdofree.com/%E3%81%82%E3%81%8B/"],
     Bakingpowder_Strawberry_: ["青色（あおいろ）", "https://veritas-color-kids.jimdofree.com/%E3%81%82%E3%81%8A/"],
-    Insecticide_Fire_: ["緑色（みどりいろ）", "https://veritas-color-kids.jimdofree.com/%E3%81%BF%E3%81%A9%E3%82%8A/"],
+    Insecticide_Fire_: ["緑色（みどりいろ）", "https://veritas-color-kids.jimdofree.com/%E3%81%BF%E3%81%A9%E3%82%8A-1/"],
 }
 
 const namearr = [
